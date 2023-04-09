@@ -1,0 +1,118 @@
+<!--pages/mine/mine.wxml-->
+<view class="box">
+  <view class="header">
+    <view class="left">
+      <image src="/images/avatar.png"></image>
+    </view>
+    <view class="mingzi">PiLiPaLa</view>
+    <view class="wenzi">PP号：xxxxxxxxxxxxx</view>
+    <view class="ppb">PP币：99</view>
+    <image class="erweima" src="/images/wo-dimensional-code-two.png"></image>
+  </view>
+
+  <view class="middle">
+    <navigator url="/pages/second/second" open-type="navigate">
+      <view>
+        <image class="tubiao" src="/images/folder-focus.png"></image>
+        <view class="ziti01">收藏</view>
+      </view>
+    </navigator>
+
+    <view>
+      <image class="tubiao" src="/images/like.png"></image>
+      <view class="ziti02">喜欢</view>
+    </view>
+    <view>
+      <image class="tubiao" src="/images/download-four.png"></image>
+      <view class="ziti03">下载</view>
+    </view>
+    <view>
+      <image class="tubiao" src="/images/history.png"></image>
+      <view class="ziti04">历史记录</view>
+    </view>
+
+  </view>
+  <view class="footer">
+    <view class="top">
+      <view>更多推荐</view>
+    </view>
+    <view class="bottom">
+
+      <view class="icon01">
+        <image src="/images/bookmark-one.png"></image>
+        <view>标签</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/blackboard.png"></image>
+        <view>黑板</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/bytedance-mini-app.png"></image>
+        <view>应用</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/card-two.png"></image>
+        <view>双卡片</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/cast-screen.png"></image>
+        <view>影屏</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/code-one.png"></image>
+        <view>代码</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/cooperative-handshake.png"></image>
+        <view>合作</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/creative.png"></image>
+        <view>书签</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/crown.png"></image>
+        <view>皇冠</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/diamond.png"></image>
+        <view>钻石</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/hourglass-null.png"></image>
+        <view>沙漏</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/magic.png"></image>
+        <view>仙女棒</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/gas.png"></image>
+        <view>气体</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/gavel.png"></image>
+        <view>公正</view>
+
+      </view>
+      <view class="icon01">
+        <image src="/images/medal-one.png"></image>
+        <view>勋章</view>
+
+      </view>
+    </view>
+  </view>
+</view>

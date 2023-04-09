@@ -1,0 +1,136 @@
+/* pages/mine/mine.wxss */
+.box{
+  height:1200rpx;
+  width: 750rpx;
+  background-color: #eee;
+}
+.header{
+  margin-bottom: 20rpx;
+  width: 750rpx;
+  height: 200rpx;
+  /* background-color: #ccc; */
+  position: relative;
+  border: 5rpx solid #ccc;
+}
+.header .left{
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+  background-color: #ccc;
+  position: absolute;
+  top: 15rpx;
+  left: 20rpx;
+}
+.mingzi{
+  top: 50rpx;
+  left: 210rpx;
+  position: absolute;
+  font-weight: 900;
+  color: #009933;
+}
+.wenzi{
+  top: 100rpx;
+  left: 210rpx;
+  position: absolute;
+  color: #009933;
+}
+.ppb{
+  top: 145rpx;
+  left: 210rpx;
+  position: absolute;
+  color: #009933;
+}
+.erweima{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  left: 600rpx;
+  top: 60rpx;
+}
+.header .left image{
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.middle{
+  width: 750rpx;
+  height: 200rpx;
+  border-radius: 30rpx;
+  border: 5rpx solid #ccc;
+  /* background-color: #ccc; */
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.tubiao{
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 85rpx;
+  width: 80rpx;
+  height: 80rpx;
+
+}
+.middle .ziti01{
+  position: absolute;
+  top: 130rpx;
+  font-weight: 600;
+  color: #009933;
+  left: 80rpx;
+}
+.middle .ziti02{
+  position: absolute;
+  top: 130rpx;
+  font-weight: 600;
+  color: #009933;
+  left: 255rpx;
+}
+.middle .ziti03{
+  position: absolute;
+  top: 130rpx;
+  font-weight: 600;
+  color: #009933;
+  left: 420rpx;
+}
+.middle .ziti04{
+  position: absolute;
+  top: 130rpx;
+  font-weight: 600;
+  color: #009933;
+  left: 560rpx;
+}
+.footer{
+  border-radius: 30rpx;
+  width: 750rpx;
+  height: 700rpx;
+  border: 5rpx solid #ccc;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #ccc; */
+}
+.footer .top{
+  flex: 1;
+  /* background-color: red; */
+  line-height: 90rpx;
+  padding-left: 40rpx;
+  color: #009933;
+  font-weight: 600;
+}
+.footer .bottom{
+  border-top: 5rpx solid #ccc;
+  /* border: 5rpx solid #ccc; */
+  flex: 7;
+  /* background-color: green; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer .bottom .icon01 image{
+  margin: 20rpx;
+  width: 90rpx;
+  height: 90rpx;
+}
+.footer .bottom .icon01 view{
+  margin-left: 28rpx;
+  color: #009933;
+  font-weight: 500;
+}

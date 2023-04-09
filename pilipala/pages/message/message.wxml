@@ -1,0 +1,65 @@
+<!--pages/message/message.wxml-->
+
+<!-- 头部 -->
+<view class="news-top">
+    <view class="news-left">
+        <view class="{{num==1?'class1':''}}" bindtap="change" data-info="{{1}}">服务</view>
+
+        <view class="{{num==2?'class1':''}}" bindtap="change" data-info="{{2}}">回复</view>
+    </view>
+
+    <view class="news-right">
+        <image src="/images/homie-active.png" mode="widthFix" style="width: 60rpx;"></image>
+    </view>
+</view>
+
+<!-- 内容 -->
+<view class="news-cent">
+    <view class="liebiao"> 消息列表
+    <!-- 未读 -->
+      <view class="tishi"></view>
+    </view>
+    <view class="news-val">
+        <image src="/images/tx/huge1.png" mode="widthFix"></image>
+        <view class="news-text">
+            <view>游客一</view>
+            <view>
+                ...........................
+            </view>
+        </view>
+
+    </view>
+<!-- 列表二 -->
+<view class="news-val">
+        <image src="/images/tx/huge1.png" mode="widthFix"></image>
+        <view class="news-text">
+            <view>游客二</view>
+            <view>
+                ...........................
+            </view>
+        </view>
+    </view>
+    <!-- 列表三 -->
+<view class="news-val">
+        <image src="/images/tx/huge1.png" mode="widthFix"></image>
+        <view class="news-text">
+            <view>游客三</view>
+            <view>
+                ...........................
+            </view>
+        </view>
+    </view>
+    <!-- 列表四 -->
+<view class="news-val">
+        <image src="/images/tx/huge1.png" mode="widthFix"></image>
+        <view class="news-text">
+            <view>游客四</view>
+            <view>
+               帅哥？约吗？
+            </view>
+        </view>
+    </view>
+
+
+</view>
+<view class="foot">暂无更多消息</view>

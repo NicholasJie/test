@@ -1,0 +1,94 @@
+/* pages/message/message.wxss */
+page {
+    background-color: #eee;
+}
+.news-top {
+    width: 100%;
+    height: 100rpx;
+    background-color: white;
+    display: flex;
+
+}
+.news-left {
+    width: 250rpx;
+    height: 100rpx;
+    margin-left: 270rpx;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.news-right {
+    width: 100rpx;
+    height: 100rpx;
+    margin-left: 180rpx;
+    margin-top: 20rpx;
+}
+.news-left view {
+    margin-top: 30rpx;
+}
+
+
+.news-cent{
+    width: 100%;
+    height: 500rpx;
+    background-color: white;
+    margin-top: 20rpx;
+}
+/* 定义点击的样式 */
+.class1 {
+    color: #009933;
+    border-bottom: 7rpx solid #009933;
+}
+/* 信息列表 */
+.news-val {
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1rpx solid #eee;
+    display: flex;
+    font-size: 28rpx;
+}
+.liebiao {
+    font-size: 26rpx;
+    margin: 10rpx 0rpx 0rpx 20rpx;
+    border-bottom: 1rpx solid #eee;
+    padding: 10rpx;position: relative;
+}
+.liebiao  .tishi{
+    position: relative;
+    width: 20rpx;
+    height: 20rpx;
+    border-radius: 50%;
+    background-color: rgb(221, 65, 65);
+    top: 40rpx;
+}
+.liebiao  .tishi image{
+    width: 40rpx;
+    height:40rpx;
+}
+
+
+/* 头像 */
+
+.news-val image {
+    width: 130rpx;
+    margin-left: 10rpx;
+    margin-top: 6rpx;
+}
+.news-val view:nth-child(3) {
+    color: red;
+}
+
+/* 列表文字 */
+.news-text view:nth-child(1) {
+    margin-top: 8rpx;
+}
+.news-text view:nth-child(2) {
+    margin-top: 10rpx;
+}
+
+.foot {
+
+    /* margin: 10rpx auto; */
+    margin-top: 20rpx;
+    text-align: center;
+}

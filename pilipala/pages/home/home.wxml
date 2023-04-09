@@ -1,0 +1,95 @@
+<!--pages/home/home.wxml-->
+<!-- 搜索 -->
+<view class="nav">
+  <view class="logo">
+    <image src="/images/logo.png"></image>
+  </view>
+  <input class="search" type="text" placeholder=" 搜索" />
+  <view class="icon">
+    <image src="/images/search.png"></image>
+  </view>
+</view>
+<!-- 导航条 -->
+<view class="page-section-spacing">
+  <scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%" wx:for="{{navbar}}" wx:key="index">
+    <view class="a">{{item}}</view>
+  </scroll-view>
+</view>
+
+
+<!-- 轮播图 -->
+
+<swiper indicator-dots circular autoplay interval="2000" circular>
+  <swiper-item wx:for="{{swiperList}}" wx:key="id">
+    <image src="{{item.image}}"></image>
+  </swiper-item>
+</swiper>
+
+<!-- 重磅热播区域 -->
+<view style="margin-top:20rpx;margin-left: 10rpx;margin-right: 10rpx; color: #009933;border-top: 1rpx solid #fff;padding-top: 25rpx; ">重磅热播</view>
+
+<view class="concent">
+    <view class="con-val">
+    <view class="con-img">
+        <image src="/images/concent/douluodalu.jpeg" mode="widthFix" ></image>
+    </view>
+    <view class="con-v">
+    斗罗大陆
+    </view>
+    <view class="con-v2">此生不悔入唐门</view>
+
+    </view>
+    <view class="con-val">
+        <view class="con-img">
+            <image src="/images/concent/lingjianshan.jpeg" mode="widthFix"></image>
+        </view>
+        <view class="con-v">
+    从前有座灵剑山
+    </view>
+    <view class="con-v2">讲述了末法大劫降临、九州大陆面临危机之际</view>
+    </view>
+
+    
+    <view class="con-val">
+    <view class="con-img">
+        <image src="/images/concent/saoheifengbao.jpeg" mode="widthFix"></image>
+    </view>
+    <view class="con-v">
+    扫黑风暴
+    </view>
+    <view class="con-v2">电视剧是由五百执导，孙红雷、张艺兴、刘奕君领衔主演，吴越、王志飞、刘之冰、吴晓亮主演的当代涉案剧。</view>
+
+    </view>
+    <view class="con-val">
+        <view class="con-img">
+            <image src="/images/concent/wanmeishijie.jpeg" mode="widthFix"></image>
+        </view>
+        <view class="con-v">
+    完美世界
+    </view>
+    <view class="con-v2">动画改编自同名小说。他为修道而生,为应劫而至,他身化亿万血雨,洒落万古岁月,</view>
+    </view>
+    
+
+    <view class="con-val">
+    <view class="con-img">
+        <image src="/images/concent/yueshengcanghai.jpeg" mode="widthFix"></image>
+    </view>
+    <view class="con-v">
+    月上沧海
+    </view>
+    <view class="con-v2">古装电视剧《月升沧海》延续《星汉灿烂》，叙述程家女生名字少商，因战争从小被爸爸妈妈留到奶奶身旁变成“留守孩子...</view>
+
+    </view>
+    <view class="con-val">
+        <view class="con-img">
+            <image src="/images/concent/fanren.jpeg" mode="widthFix" ></image>
+        </view>
+        <view class="con-v">
+    凡人修仙传
+    </view>
+    <view class="con-v2">凡人出身的青年韩立为求大道,纵横人、灵、仙三界,掌握力量,惩恶扬善,快意恩仇的旅程。</view>
+    </view>
+</view>
+
+<!-- 猜你喜欢 -->

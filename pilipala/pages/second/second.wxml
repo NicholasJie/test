@@ -1,0 +1,61 @@
+<!--pages/second/second.wxml-->
+<view class="box">
+  <view class="header">
+    <view class="shipin"><text>视频</text>
+      <view class="add">
+        <image src="/images/file-addition.png"></image>
+      </view>
+    </view>
+    <view class="shoucangjia">
+      <view class="up">
+        <image src="/images/handle-up.png">
+        </image>
+      </view> <text>收藏夹3</text>
+      <view class="more">
+        <image src="/images/more-one.png"></image>
+      </view>
+
+    </view>
+  </view>
+  <view class="bodyer">
+
+    <view class="content">
+      <view class="left">
+        <image src="/images/concent/saoheifengbao.jpeg"></image>
+
+      </view>
+      <view class="right">
+        <view class="biaoti">扫黑风暴01</view>
+        <view class="wenzi"><text>主演：xxx,xxx,xxx,这是由一起命案说起,在1992年的香港......</text></view>
+        <view class="paly"><view class="daoyan">导演：xxx</view><image src="/images/play-two.png"></image><text>立刻播放</text></view>
+      </view>
+    </view>
+
+    <view class="content">
+      <view class="left">
+        <image src="/images/concent/douluodalu.jpeg"></image>
+
+      </view>
+      <view class="right">
+        <view class="biaoti">斗罗大陆16</view>
+        <view class="wenzi"><text>主演：xxx,xxx,xxx,这是由一起命案说起,在1992年的香港......</text></view>
+        <view class="paly"><view class="daoyan">导演：xxx</view><image src="/images/play-two.png"></image><text>立刻播放</text></view>
+      </view>
+    </view>
+
+    <view class="content">
+      <view class="left">
+        <image src="/images/concent/yueshengcanghai.jpeg"></image>
+
+      </view>
+      <view class="right">
+        <view class="biaoti">月上沧海02</view>
+        <view class="wenzi"><text>主演：xxx,xxx,xxx,这是由一起命案说起,在1992年的香港......</text></view>
+        <view class="paly"><view class="daoyan">导演：xxx</view><image src="/images/play-two.png"></image><text>立刻播放</text></view>
+      </view>
+    </view>
+
+  </view>
+  <view class="footer">
+  </view>
+</view>

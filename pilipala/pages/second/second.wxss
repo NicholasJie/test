@@ -1,0 +1,121 @@
+/* pages/second/second.wxss */
+.box{
+  height: 1250rpx;
+  width: 750rpx;
+  background-color: #eee;
+}
+.header{
+  width: 750rpx;
+  height: 200rpx;
+}
+.shipin{
+  padding-top: 20rpx;
+  margin-left: 30rpx;
+  width: 70rpx;
+  height: 60rpx;
+  border-bottom: 7rpx solid #009933;
+  font-weight: 600;
+  color: #009933;
+  position: relative;
+}
+.shipin .add image{
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  left: 630rpx;
+  bottom: 5rpx;
+}
+.shoucangjia{
+  position: relative;
+}
+.shoucangjia text{
+  position: absolute;
+  top: 30rpx;
+  left: 80rpx;
+  color: #009933;
+}
+.shoucangjia .up image{
+  top: 27rpx;
+  left: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+}
+.shoucangjia .more image{
+  top: 27rpx;
+  left: 650rpx;
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+}
+.bodyer{
+  width: 750rpx;
+  height: 700rpx;
+  /* background-color: aqua; */
+}
+.bodyer .content{
+  width: 700rpx;
+  height: 250rpx;
+  /* background-color: red; */
+  margin: 0 auto;
+  border-radius: 30rpx;
+  border: 5rpx solid #ccc;
+  margin-bottom: 30rpx;
+  /* position: relative; */
+}
+.bodyer .content .left{
+  width: 300rpx;
+  height: 250rpx;
+  border-radius: 30rpx;
+  /* background-color: saddlebrown; */
+}
+.bodyer .content .left image{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.bodyer .content .right{
+  position: relative;
+}
+.right .biaoti{
+  color: gray;
+  position: absolute;
+  font-weight: 600;
+  top: -230rpx;
+  left: 340rpx;
+}
+.right .wenzi{
+  position: absolute;
+  left: 340rpx;
+  top: -170rpx;
+  font-size: 26rpx;
+  color: gray;
+}
+.right .paly{
+  position: relative;
+  width: 200rpx;
+  height: 80rpx;
+  /* background-color: green; */
+  top: -90rpx;
+  left: 470rpx;
+  border-radius: 30rpx;
+} 
+.right .paly image{
+  position: absolute;
+  margin-top: 5rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+.right .paly text{
+  position: absolute;
+  top: 20rpx;
+  left: 70rpx;
+  font-size: 28rpx;
+}
+.right .paly .daoyan{
+  position: absolute;
+  top: 20rpx;
+  left: -130rpx;
+  font-size: 26rpx;
+  color: gray;
+}
